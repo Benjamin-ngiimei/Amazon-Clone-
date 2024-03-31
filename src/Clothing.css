@@ -1,0 +1,53 @@
+.Sub_clothing{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.Sub_clothing a{
+    text-decoration: none; 
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.men{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.men img{
+    margin-left: 20px;
+    width: 150px;
+}
+.women{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px; 
+}
+.women img{
+    margin-left: 20px;
+    width: 150px; 
+}
+.kids{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;  
+}
+.kids img{
+    margin-left: 20px;
+    width: 150px;  
+}
+.kids:hover,
+.women:hover,
+.men:hover{
+    border: 0px solid lightblue;
+    border-radius: 5px ; 
+    box-shadow: 0px 0px 10px 0px lightskyblue;
+}

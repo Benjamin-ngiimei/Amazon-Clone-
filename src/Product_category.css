@@ -1,0 +1,68 @@
+.Product_main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.Product_main a{
+    text-decoration: none; 
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.electronic{
+    width: 200px;
+  padding-bottom: 20px;
+  margin: 10px;
+    
+}
+.electronic >  img{
+  margin-left: 20px;
+    width: 150px;
+    
+}
+.clothing{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.clothing img{
+    margin-left: 20px;
+    width: 90px;
+}
+.furniture{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.furniture  img{
+    margin-left: 20px;
+    width: 120px;
+}
+
+.beauty{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.beauty  img{
+    margin-left: 20px;
+    width: 150px;
+}
+.electronic:hover,
+.furniture:hover,
+.clothing:hover,
+.beauty:hover{
+    border: 0px solid lightblue;
+    border-radius: 5px ; 
+    box-shadow: 0px 0px 10px 0px lightskyblue;
+}

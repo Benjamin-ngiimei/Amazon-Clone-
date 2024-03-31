@@ -1,0 +1,63 @@
+.Sub_electronic{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.Sub_electronic a{
+    text-decoration: none; 
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.camera{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.camera >  img{
+    margin-left: 20px;
+      width: 150px;
+}
+
+.phone{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.phone >  img{
+    margin-left: 20px;
+      width: 150px;
+}
+
+.laptop{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.laptop >  img{
+    margin-left: 20px;
+      width: 150px;
+}
+.camera:hover,
+.phone:hover,
+.laptop:hover{
+    border: 0px solid lightblue;
+    border-radius: 5px ; 
+    box-shadow: 0px 0px 10px 0px lightskyblue;
+}
+.electronic_banner{
+    display: flex;
+    flex-direction: column;
+
+}
+.electronic_banner img{
+    width: 100%;
+}

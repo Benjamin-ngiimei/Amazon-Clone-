@@ -1,0 +1,58 @@
+.your_order{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.search_order{
+    width: 30%;
+   padding: 7px;
+   border-radius: 5px;
+   border: 1px solid darkgray;
+   margin-left: 35%;
+}
+.order_button{
+    background-color: black;
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    border: .5px solid black;
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+.order_button:hover{
+    background-color: rgb(157, 150, 132);
+}
+.order_content {
+    display: flex;
+    flex-direction:row;
+    margin-left: 10%;
+    margin-top: 20px;
+   
+}
+span a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(61, 136, 174);
+    font-weight: 500;
+    margin: 20px;
+}
+.order_content a:hover{
+text-decoration: underline ;
+color: red;
+}
+
+hr{
+    width: 75%;
+    border: .01 solid black;
+    
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+.span a:hover{
+text-decoration: underline ;
+color: red;
+}

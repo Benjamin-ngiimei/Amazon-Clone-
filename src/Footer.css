@@ -1,0 +1,23 @@
+.footer_button{
+    width: 100%;
+    padding: 15px;
+    background-color:#2c3a4a;
+    color: aliceblue;
+}
+.footer_button:hover{
+    background-color: #42566c;
+}
+.footer{
+    background-color: #1e2732;
+    padding: 10px;
+    color: aliceblue;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    list-style-type: none;
+}
+

@@ -1,0 +1,16 @@
+.phone_item{
+    display: flex;
+    margin-left: 50px;
+}
+.phone_item img{
+    width: 90px;
+    height: 120px;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+}
+.phone_item img:hover{
+    transition: .5s ease;
+    transform: scale(1.3);
+}

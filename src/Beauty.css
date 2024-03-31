@@ -1,0 +1,33 @@
+.Sub_beauty{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.Sub_beauty a{
+    text-decoration: none; 
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.Beauty{
+    width: 200px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.Beauty img{
+    margin-left: 20px;
+    width: 150px;
+}
+.Beauty:hover{
+    border: 0px solid lightblue;
+    border-radius: 5px ; 
+    box-shadow: 0px 0px 10px 0px lightskyblue;
+}

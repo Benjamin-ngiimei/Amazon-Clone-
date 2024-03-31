@@ -1,0 +1,22 @@
+.camera_banner{
+    width: 100%;
+}
+.camera_item{
+    display: flex;
+    margin-left: 50px;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+  
+}
+.camera_item img{
+    width: 80px;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: 0 0 10px;
+    border-radius: 150px;
+    
+}
+.camera_item img:hover{
+    transition: .5s ease;
+    transform: scale(1.3);
+}

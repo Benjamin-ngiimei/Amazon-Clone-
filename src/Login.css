@@ -1,0 +1,100 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.login_logo{
+  margin-top: 10px;
+    width: 100px;
+    object-fit: contain;
+   
+}
+.login_container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 45vh;
+    width: 300px;
+    margin-bottom: 15%;
+    margin-top: 10px;
+    border: 1px solid rgb(217, 156, 14);
+    border-radius: 5px;
+    box-shadow: black 0,0,0,10px;
+  }
+  
+  .login_logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .login_form {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .login_container > p{
+    margin-top: -15px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .login_container > a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid gray;
+    width: 185px;
+    background-color: goldenrod;
+  }
+  .login_container > form > input {
+   height: 30px;
+   margin-bottom: 10px;
+   margin-top: -20px;
+   width: 90%;
+   border-radius: 5px;
+   margin-left: 10px;
+  }
+  .login_button{
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 20px;
+  }
+  .login_form > h5{
+    text-align: start;
+    margin-left: 15px;
+    margin-top: -10px;
+   
+  }
+  
+  .login_button{
+    background-color: #f1c80f;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .create_account_button {
+    background-color: #f0eaea;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .create_account_button:hover {
+    background-color: #a3a2a1;
+  }
+  
+  .login_button:hover{
+    background-color: #eb9412;
+  }
+
+  .login_newAcount{
+   position: absolute;
+   bottom: 160px;
+text-align: center;
+  }
+  
