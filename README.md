@@ -1,3 +1,4 @@
+
 <img width="1440" alt="Screenshot 2024-03-31 at 6 21 51 PM" src="https://github.com/Benjamin-ngiimei/Amazon-Clone-/assets/154259017/6d1651a0-98bc-4dca-a4bf-17b1676dbc05">
 <img width="1440" alt="Screenshot 2024-03-31 at 6 22 43 PM" src="https://github.com/Benjamin-ngiimei/Amazon-Clone-/assets/154259017/d8f56fec-cbdc-4e63-bd00-9db3cd78c414">
 <img width="1440" alt="Screenshot 2024-03-31 at 6 22 57 PM" src="https://github.com/Benjamin-ngiimei/Amazon-Clone-/assets/154259017/d6ab2ad8-7470-4ec7-b4eb-5225841e993c">
